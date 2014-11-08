@@ -1,0 +1,113 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALLER_ID_OPTIONS DIALOG DISCARDABLE  0, 0, 314, 240
+STYLE WS_CHILD
+FONT 8, "MS Shell Dlg"
+BEGIN
+    COMBOBOX        IDC_DEVICES,38,37,218,39,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Use Relay to notify me about incoming calls  when I'm connected someplace else",
+                    IDC_USE_RELAY,"Button",BS_AUTOCHECKBOX | BS_TOP | 
+                    BS_MULTILINE | WS_TABSTOP,38,58,153,18
+    CONTROL         "Get Relay",IDC_GET_RELAY,"Hyperlink",WS_TABSTOP,203,58,
+                    48,9
+    CONTROL         "Log incoming calls",IDC_LOG_CALLS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,84,74,10
+    EDITTEXT        IDC_LOG_FILE_PATH,51,111,205,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOTIFY_TIME,153,130,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Caller ID Options",IDC_STATIC,1,0,311,239
+    LTEXT           "The device that is connected to my phone line:",
+                    IDC_STATIC,38,24,149,8
+    LTEXT           "No suitable devices were found. The plugin will not work.",
+                    IDC_STATIC_NO_DEVICES,66,11,180,8,NOT WS_VISIBLE
+    LTEXT           "Log file path: (full path recommended)",IDC_STATIC,51,
+                    97,119,8
+    LTEXT           "seconds",IDC_STATIC,179,135,28,8
+    CONTROL         "Show the notification baloon for",IDC_SHOW_NOTIFICATION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,134,112,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CALLER_ID_OPTIONS, DIALOG
+    BEGIN
+        VERTGUIDE, 38
+        VERTGUIDE, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

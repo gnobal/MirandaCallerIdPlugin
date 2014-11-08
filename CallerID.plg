@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CallerID - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Amit\LOCALS~1\Temp\RSP1A3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\Miranda\Miranda-IM" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WIN32_DCOM" /FR"Release/" /Fp"Release/CallerID.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Amit\My Documents\Dev\Miranda\CallerID\CallerID.cpp"
+"C:\Documents and Settings\Amit\My Documents\Dev\Miranda\CallerID\CallerIDEventHandler.cpp"
+"C:\Documents and Settings\Amit\My Documents\Dev\Miranda\CallerID\Options.cpp"
+"C:\Documents and Settings\Amit\My Documents\Dev\Miranda\CallerID\TapiCommon.cpp"
+"C:\Documents and Settings\Amit\My Documents\Dev\Miranda\CallerID\TapiEventProcessor.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Amit\LOCALS~1\Temp\RSP1A3.tmp" 
+<h3>Output Window</h3>
+Compiling...
+CallerID.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>
