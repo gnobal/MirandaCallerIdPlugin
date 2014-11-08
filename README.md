@@ -1,7 +1,7 @@
 MirandaCallerIdPlugin
 =====================
 
-An old plugin I wrote for Miranda IM to provide caller ID capabilities when the computer is connected to a landline through a modem
+An old plugin I wrote for Miranda IM to provide caller ID capabilities when the computer is connected to a landline through a modem. Can be used as a reference for how to do caller ID in Windows (at least in the past it used to work :)
 
 Basic caller ID functionality for Miranda. Notifies using a notification baloon next to Miranda's systray icon. Also able to save a call log.
 
